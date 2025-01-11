@@ -78,5 +78,15 @@
         "public_key": "public_key_Mor",
         "previous_hash": "e5dd3b9551f9d51063a496b3ef80065b6b342eab627a3bce5722980b9e7a1e98",
         "hash": "b61802108ca3f8ef005e2f7ef83ccb774689545d4d43a39296103273bac38893"
+    },
+    {
+        "index": 9,
+        "timestamp": 1736576861.186212,
+        "aromatic_code": "SER-EUG01-CAL01-GAL01",
+        "hashed_code": "def387a36e84003f6dc4735ded73d465939e5bbbffefdc754ce67d5fb2f494ee",
+        "signature": "signature_\u041e\u043b\u0435\u0436\u043a\u0430",
+        "public_key": "public_key_\u041e\u043b\u0435\u0436\u043a\u0430",
+        "previous_hash": "b61802108ca3f8ef005e2f7ef83ccb774689545d4d43a39296103273bac38893",
+        "hash": "048aecc897b19cc5ef7cd8858a5149f9e83e49449613a704cc9e8dca65b93e6f"
     }
 ]
