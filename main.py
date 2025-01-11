@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
 import json
 import hashlib
 import time
@@ -35,8 +35,12 @@ def add_purchase():
 
     return jsonify({"message": "Purchase added successfully!"}), 200
 
+# Route to serve the aroma_blockchain.json file
+@app.route('/aroma_blockchain.json', methods=['GET'])
+def get_blockchain():
+    return send_from_directory(os.getcwd(), "aroma_blockchain.json")
+
 # Run the Flask app
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 8080))
     app.run(host='0.0.0.0', port=port)
-
