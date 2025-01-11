@@ -18,31 +18,35 @@ def upload_to_github():
     url = "https://api.github.com/repos/Mor138/aroma-blockchain-api/contents/aroma_blockchain.json"
     token = os.environ.get("GITHUB_TOKEN")
 
-    # Чтение текущего содержимого файла
     with open(blockchain_file, "r") as file:
         content = file.read()
 
-    # Получение текущего SHA файла
+    # Получаем SHA текущего файла
     response = requests.get(url, headers={"Authorization": f"Bearer {token}"})
     if response.status_code == 200:
-        sha = response.json()["sha"]
+        sha = response.json().get("sha")
     else:
-        print("❌ Не удалось получить SHA для файла.")
+        print("❌ Не удалось получить SHA для файла на GitHub.")
         return
 
-    # Подготовка данных для запроса PUT
+    # Подготовка данных для обновления
     data = {
         "message": "Обновление блокчейна",
         "content": base64.b64encode(content.encode()).decode(),
         "sha": sha
     }
 
-    # Отправка запроса на GitHub
-    response = requests.put(url, json=data, headers={"Authorization": f"Bearer {token}"})
+    # Отправка PUT-запроса на GitHub
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Content-Type": "application/json"
+    }
+    response = requests.put(url, json=data, headers=headers)
+
     if response.status_code == 200:
-        print("✅ Блокчейн успешно загружен на GitHub.")
+        print("✅ Блокчейн успешно обновлён на GitHub.")
     else:
-        print("❌ Ошибка при загрузке на GitHub:", response.json())
+        print(f"❌ Ошибка при обновлении на GitHub: {response.status_code} - {response.json()}")
 
 # Эндпоинт для добавления новой покупки
 @app.route('/add_purchase', methods=['POST'])
