@@ -88,5 +88,15 @@
         "public_key": "public_key_\u041e\u043b\u0435\u0436\u043a\u0430",
         "previous_hash": "b61802108ca3f8ef005e2f7ef83ccb774689545d4d43a39296103273bac38893",
         "hash": "048aecc897b19cc5ef7cd8858a5149f9e83e49449613a704cc9e8dca65b93e6f"
+    },
+    {
+        "index": 10,
+        "timestamp": 1736577171.7899323,
+        "aromatic_code": "SER-HED01-ISO01-AMB01",
+        "hashed_code": "0143fb08d5759e64fa9425f7b93bec2b00fe6a3de545c03902f628872d04691c",
+        "signature": "signature_SMILEMALAIKA",
+        "public_key": "public_key_SMILEMALAIKA",
+        "previous_hash": "048aecc897b19cc5ef7cd8858a5149f9e83e49449613a704cc9e8dca65b93e6f",
+        "hash": "8c8ce774f979b5d7f0127505ec1c965dcb9f98787c8336ec10aa2351f90fd15f"
     }
 ]
