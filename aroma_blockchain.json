@@ -1,0 +1,62 @@
+[
+    {
+        "index": 1,
+        "timestamp": 1736556184.3569598,
+        "aromatic_code": "Genesis Block",
+        "hashed_code": "0",
+        "signature": "0",
+        "public_key": "0",
+        "previous_hash": "0",
+        "hash": "720fc7888cd09078ca719607abb4ec94a36a95fb9c8c8eff40186531156fc023"
+    },
+    {
+        "index": 2,
+        "timestamp": 1736556184.3588114,
+        "aromatic_code": "SER-HED01-ISO01-AMB01",
+        "hashed_code": "0143fb08d5759e64fa9425f7b93bec2b00fe6a3de545c03902f628872d04691c",
+        "signature": "series_signature",
+        "public_key": "series_public_key",
+        "previous_hash": "720fc7888cd09078ca719607abb4ec94a36a95fb9c8c8eff40186531156fc023",
+        "hash": "ca30f0044ac52747b18c8405e1a44b7a192549f284dc3932325f6cb450ee6f1c"
+    },
+    {
+        "index": 3,
+        "timestamp": 1736556184.3588583,
+        "aromatic_code": "SER-LIM01-CIT01-GER01",
+        "hashed_code": "47c4d2b394b4a72f6395700e89ea1d94547e7bf1bd87c9a6fe88db6b09c2a64e",
+        "signature": "series_signature",
+        "public_key": "series_public_key",
+        "previous_hash": "ca30f0044ac52747b18c8405e1a44b7a192549f284dc3932325f6cb450ee6f1c",
+        "hash": "94e31e7d3fa871a71ad9be9300d540df0136757ae5aa3ed7e4f7bb4707c6f619"
+    },
+    {
+        "index": 4,
+        "timestamp": 1736556184.3588774,
+        "aromatic_code": "SER-EUG01-CAL01-GAL01",
+        "hashed_code": "def387a36e84003f6dc4735ded73d465939e5bbbffefdc754ce67d5fb2f494ee",
+        "signature": "series_signature",
+        "public_key": "series_public_key",
+        "previous_hash": "94e31e7d3fa871a71ad9be9300d540df0136757ae5aa3ed7e4f7bb4707c6f619",
+        "hash": "ac2ec83cf516d5c9527eebf24abdd0703b6faed0a730cdbef53dfd07a992bd13"
+    },
+    {
+        "index": 5,
+        "timestamp": 1736556184.3588924,
+        "aromatic_code": "SER-COU01-VAN01-AMB01",
+        "hashed_code": "29cd77bb3f4d18c95181cc58d88b1baf81e524350d1adf312e882b7d96cc3d7d",
+        "signature": "series_signature",
+        "public_key": "series_public_key",
+        "previous_hash": "ac2ec83cf516d5c9527eebf24abdd0703b6faed0a730cdbef53dfd07a992bd13",
+        "hash": "1402ca13325dde8bceec6e15b09077b39f93a7e9d4e838d0a91e04f92c7674a2"
+    },
+    {
+        "index": 6,
+        "timestamp": 1736556184.3589072,
+        "aromatic_code": "SER-CIN01-GER01-ISO01",
+        "hashed_code": "a5fe6c3dcbe87bac6ee368867d9ab94dfee6d93160620d2a3203f34d1da6a6ae",
+        "signature": "series_signature",
+        "public_key": "series_public_key",
+        "previous_hash": "1402ca13325dde8bceec6e15b09077b39f93a7e9d4e838d0a91e04f92c7674a2",
+        "hash": "8fcca59962ab3714a87f56d23f6c460bf59229d567a1620a371a097a8e740c05"
+    }
+]

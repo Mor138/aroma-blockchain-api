@@ -1,0 +1,52 @@
+{
+    "HED01": {
+        "name": "Hedione",
+        "category": "Floral",
+        "description": "A jasmine-like molecule that adds radiance and freshness to floral compositions."
+    },
+    "ISO01": {
+        "name": "Iso E Super",
+        "category": "Woody",
+        "description": "A smooth, velvety woody note with a slight cedar scent, often used as a base note."
+    },
+    "AMB01": {
+        "name": "Ambroxan",
+        "category": "Amber",
+        "description": "A rich, musky-amber note with a warm, sensual character."
+    },
+    "LIM01": {
+        "name": "Limonene",
+        "category": "Citrus",
+        "description": "A fresh, zesty citrus note commonly found in lemon and orange peels."
+    },
+    "GER01": {
+        "name": "Geraniol",
+        "category": "Floral",
+        "description": "A rose-like floral note commonly found in essential oils."
+    },
+    "CIT01": {
+        "name": "Citral",
+        "category": "Citrus",
+        "description": "A fresh, lemony note found in citrus oils."
+    },
+    "COU01": {
+        "name": "Coumarin",
+        "category": "Sweet",
+        "description": "A sweet, vanilla-like scent with hints of freshly cut hay."
+    },
+    "GAL01": {
+        "name": "Galaxolide",
+        "category": "Musky",
+        "description": "A sweet, powdery musk note often used in modern perfumery."
+    },
+    "EUG01": {
+        "name": "Eugenol",
+        "category": "Spicy",
+        "description": "A warm, spicy note reminiscent of clove, often used in oriental fragrances."
+    },
+    "CAL01": {
+        "name": "Calone",
+        "category": "Fresh",
+        "description": "A marine, ozonic note that evokes the scent of sea breeze and fresh air."
+    }
+}

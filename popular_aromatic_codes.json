@@ -1,0 +1,32 @@
+[
+    {
+        "aromatic_code": "SER-HED01-ISO01-AMB01",
+        "name": "Citrus Wood",
+        "type": "Series",
+        "description": "A fresh, citrusy, and woody scent with notes of jasmine, cedarwood, and amber."
+    },
+    {
+        "aromatic_code": "SER-LIM01-CIT01-GER01",
+        "name": "Lemon Bloom",
+        "type": "Series",
+        "description": "A bright and zesty fragrance with dominant lemon and floral notes."
+    },
+    {
+        "aromatic_code": "SER-EUG01-CAL01-GAL01",
+        "name": "Ocean Spice",
+        "type": "Series",
+        "description": "A unique blend of spicy clove, marine freshness, and musky base."
+    },
+    {
+        "aromatic_code": "SER-COU01-VAN01-AMB01",
+        "name": "Vanilla Dreams",
+        "type": "Series",
+        "description": "A sweet and comforting scent with vanilla, amber, and coumarin."
+    },
+    {
+        "aromatic_code": "SER-CIN01-GER01-ISO01",
+        "name": "Spiced Rose",
+        "type": "Series",
+        "description": "A warm and elegant fragrance with cinnamon, rose, and woody notes."
+    }
+]
