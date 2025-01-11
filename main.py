@@ -4,6 +4,7 @@ import hashlib
 import time
 import os
 import requests
+import base64
 
 app = Flask(__name__)
 
@@ -17,10 +18,11 @@ def upload_to_github():
     url = "https://api.github.com/repos/Mor138/aroma-blockchain-api/contents/aroma_blockchain.json"
     token = os.environ.get("GITHUB_TOKEN")
 
+    # Чтение текущего содержимого файла
     with open(blockchain_file, "r") as file:
         content = file.read()
 
-    # Получаем текущий SHA для файла
+    # Получение текущего SHA файла
     response = requests.get(url, headers={"Authorization": f"Bearer {token}"})
     if response.status_code == 200:
         sha = response.json()["sha"]
@@ -28,14 +30,14 @@ def upload_to_github():
         print("❌ Не удалось получить SHA для файла.")
         return
 
-    # Подготовка данных для загрузки
+    # Подготовка данных для запроса PUT
     data = {
         "message": "Обновление блокчейна",
-        "content": content.encode("utf-8").decode("latin1").encode("base64").decode(),
+        "content": base64.b64encode(content.encode()).decode(),
         "sha": sha
     }
 
-    # Отправка запроса на обновление файла
+    # Отправка запроса на GitHub
     response = requests.put(url, json=data, headers={"Authorization": f"Bearer {token}"})
     if response.status_code == 200:
         print("✅ Блокчейн успешно загружен на GitHub.")
