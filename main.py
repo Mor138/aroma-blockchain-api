@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify, send_file, abort
 import json
 import hashlib
 import time
@@ -29,16 +29,18 @@ def add_purchase():
     
     blockchain.append(new_block)
     
-    # Save updated blockchain to the file
     with open("aroma_blockchain.json", "w") as f:
         json.dump(blockchain, f, indent=4)
 
     return jsonify({"message": "Purchase added successfully!"}), 200
 
-# Route to serve the aroma_blockchain.json file
-@app.route('/aroma_blockchain.json', methods=['GET'])
-def get_blockchain():
-    return send_from_directory(os.getcwd(), "aroma_blockchain.json")
+# Route to get a specific block by its index
+@app.route('/block/<int:index>', methods=['GET'])
+def get_block(index):
+    if 0 < index <= len(blockchain):
+        return jsonify(blockchain[index - 1])
+    else:
+        abort(404)
 
 # Run the Flask app
 if __name__ == '__main__':
