@@ -68,5 +68,15 @@
         "public_key": "public_key_MoraliZero",
         "previous_hash": "8fcca59962ab3714a87f56d23f6c460bf59229d567a1620a371a097a8e740c05",
         "hash": "e5dd3b9551f9d51063a496b3ef80065b6b342eab627a3bce5722980b9e7a1e98"
+    },
+    {
+        "index": 8,
+        "timestamp": 1736572735.529514,
+        "aromatic_code": "SER-HED01-ISO01-AMB01",
+        "hashed_code": "0143fb08d5759e64fa9425f7b93bec2b00fe6a3de545c03902f628872d04691c",
+        "signature": "signature_Mor",
+        "public_key": "public_key_Mor",
+        "previous_hash": "e5dd3b9551f9d51063a496b3ef80065b6b342eab627a3bce5722980b9e7a1e98",
+        "hash": "b61802108ca3f8ef005e2f7ef83ccb774689545d4d43a39296103273bac38893"
     }
 ]
