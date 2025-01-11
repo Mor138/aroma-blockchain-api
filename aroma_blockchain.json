@@ -98,5 +98,15 @@
         "public_key": "public_key_SMILEMALAIKA",
         "previous_hash": "048aecc897b19cc5ef7cd8858a5149f9e83e49449613a704cc9e8dca65b93e6f",
         "hash": "8c8ce774f979b5d7f0127505ec1c965dcb9f98787c8336ec10aa2351f90fd15f"
+    },
+    {
+        "index": 11,
+        "timestamp": 1736577987.0760307,
+        "aromatic_code": "SER-LIM01-CIT01-GER01",
+        "hashed_code": "47c4d2b394b4a72f6395700e89ea1d94547e7bf1bd87c9a6fe88db6b09c2a64e",
+        "signature": "signature_\u0412\u0430\u0434\u0438\u043c",
+        "public_key": "public_key_\u0412\u0430\u0434\u0438\u043c",
+        "previous_hash": "8c8ce774f979b5d7f0127505ec1c965dcb9f98787c8336ec10aa2351f90fd15f",
+        "hash": "5db2e5e5f4c65bb8af2a7f366585b587ee574b47035b8ec260ae5b91505134bc"
     }
 ]
